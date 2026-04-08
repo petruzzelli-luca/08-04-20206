@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './user-item.component.css'
 })
 export class UserItemComponent {
+  name: string;
 
+  constructor() {
+    this.name = 'Luca';
+  }
 }
